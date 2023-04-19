@@ -51,6 +51,9 @@
   },
   "types": "index.d.ts",
   "denoify": {
-    "index": "src/zodToJsonSchema.ts"
+    "index": "src/zodToJsonSchema.ts",
+    "ports": {
+      "zod": "https://deno.land/x/zod/mod.ts"
+    }
   }
 }
