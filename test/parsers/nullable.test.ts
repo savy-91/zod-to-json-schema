@@ -1,6 +1,4 @@
-import { JSONSchema7Type } from "json-schema";
 import { z } from "zod";
-import { parseNullableDef } from "../../src/parsers/nullable";
 import { parseObjectDef } from "../../src/parsers/object";
 import { getRefs } from "../../src/Refs";
 
